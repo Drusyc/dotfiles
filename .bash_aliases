@@ -14,7 +14,10 @@ alias rm='/bin/rm -i'
 alias cp='/bin/cp -iv'
 alias mv='/bin/mv -iv'
 
-alias rsync='rsync -rtvzuP'
+alias rsync='/usr/bin/rsync -rtvzuP'
+
+# Get space occupation on disk of current directory (files + subdir)
+alias duh='/usr/bin/du -h . | /usr/bin/tail -n1'
 
 alias :q='exit'
 
